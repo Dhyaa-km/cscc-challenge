@@ -4,13 +4,16 @@ import { Badge } from '@/components/ui/Badge';
 import { GameButton } from '@/components/ui/GameButton';
 import { RefreshCw, Trophy } from 'lucide-react';
 import gsap from 'gsap';
+import { ReactionBest } from './ReactionBest';
 
 interface ReactionResultProps {
   result: ReactionResultData;
+  bestScore: number | null;
+  isNewRecord: boolean;
   onPlayAgain: () => void;
 }
 
-export const ReactionResult: React.FC<ReactionResultProps> = ({ result, onPlayAgain }) => {
+export const ReactionResult: React.FC<ReactionResultProps> = ({ result, bestScore, isNewRecord, onPlayAgain }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const timeRef = useRef<HTMLDivElement>(null);
 
@@ -55,7 +58,7 @@ export const ReactionResult: React.FC<ReactionResultProps> = ({ result, onPlayAg
 
       {/* Main Score Display */}
       <div ref={timeRef} className="my-6">
-        <div className="inline-flex items-baseline gap-2 font-display font-black text-6xl sm:text-7xl lg:text-8xl bg-gradient-to-r from-cyan-400 via-emerald-300 to-blue-500 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(6,182,212,0.7)]">
+        <div className="inline-flex items-baseline gap-2 font-display font-black text-6xl sm:text-7xl lg:text-8xl bg-linear-to-r from-cyan-400 via-emerald-300 to-blue-500 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(6,182,212,0.7)]">
           <span>{result.timeMs}</span>
           <span className="text-2xl sm:text-3xl text-cyan-400 font-mono font-bold uppercase">ms</span>
         </div>
@@ -65,6 +68,10 @@ export const ReactionResult: React.FC<ReactionResultProps> = ({ result, onPlayAg
       <p className="text-sm text-slate-300 font-sans max-w-md mx-auto mb-8 leading-relaxed">
         {result.rating.description}
       </p>
+
+      <div className="mb-8 flex justify-center">
+        <ReactionBest bestScore={bestScore} isNewRecord={isNewRecord} />
+      </div>
 
       {/* Action Buttons */}
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
