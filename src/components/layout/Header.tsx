@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Sparkles, Home, Zap, Puzzle, BrainCircuit } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import logo from '@/assets/CSCC-LOGO.png';
+import logo from '@/assets/cdecJPG.jpg';
 
 export const Header: React.FC = () => {
   const location = useLocation();

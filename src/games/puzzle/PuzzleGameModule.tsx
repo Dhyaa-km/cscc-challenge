@@ -6,7 +6,7 @@ import { PuzzleResult } from './components/PuzzleResult';
 import { EventChallengeModal } from './components/EventChallengeModal';
 import { GameButton } from '@/components/ui/GameButton';
 import { Play } from 'lucide-react';
-import puzzleImage from './assets/LogoCscc.png';
+import puzzleImage from './assets/cdec.png';
 
 export const PuzzleGameModule: React.FC = () => {
   const {
