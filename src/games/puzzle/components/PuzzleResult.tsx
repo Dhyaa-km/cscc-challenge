@@ -50,7 +50,7 @@ export const PuzzleResult: React.FC<PuzzleResultProps> = ({
 
       <div className="mb-6">
         <Badge variant="amber" className="text-sm py-1 px-4">
-          🏆 CSCC Puzzle Master
+          🏆 CDEC Puzzle Master
         </Badge>
       </div>
 
