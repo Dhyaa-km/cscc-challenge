@@ -42,7 +42,7 @@ export const MemoryCard: React.FC<MemoryCardProps> = ({ card, onClick, isDisable
             CS
           </div>
           <span className="text-[9px] sm:text-[10px] font-mono font-bold tracking-widest text-slate-400 uppercase mt-1">
-            CSCC
+            CDEC
           </span>
         </div>
 
