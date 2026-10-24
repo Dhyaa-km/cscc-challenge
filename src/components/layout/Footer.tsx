@@ -6,10 +6,10 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
         <div>
           <p className="font-display font-bold text-sm text-slate-300">
-            CSCC CHALLENGE — <span className="text-cyan-400">DEVELOPMENT DEPARTMENT</span>
+            CDEC CHALLENGE
           </p>
           <p className="text-xs text-slate-400 font-mono mt-1">
-            Built for CSCC Welcome Day Event 26/27 • Interactive Arcade Experience
+            Built for CDEC Welcome Day Event 26/27 • Interactive Arcade Experience
           </p>
         </div>
 
