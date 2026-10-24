@@ -29,7 +29,7 @@ export const Header: React.FC = () => {
           <div className="flex flex-col">
             <div className="flex items-center gap-2">
               <span className="font-display font-black tracking-wider text-lg sm:text-xl text-white group-hover:text-cyan-400 transition-colors">
-                CSCC <span className="text-blue-400">CHALLENGE</span>
+                CDEC <span className="text-blue-400">CHALLENGE</span>
               </span>
             </div>
            
