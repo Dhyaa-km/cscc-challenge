@@ -44,7 +44,7 @@ export const GAMES_DATA: GameInfo[] = [
     id: 'puzzle',
     title: 'IMAGE PUZZLE',
     subtitle: 'Visual Reconstruction & Event Quest',
-    description: 'Rebuild the scrambled visual piece by piece. Completing it unlocks an interactive physical event challenge at the CSCC booth!',
+    description: 'Rebuild the scrambled visual piece by piece. Completing it unlocks an interactive physical event challenge at the CDEC booth!',
     iconName: 'Puzzle',
     emoji: '🧩',
     path: '/puzzle',
