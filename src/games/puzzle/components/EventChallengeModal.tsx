@@ -52,7 +52,7 @@ export const EventChallengeModal: React.FC<EventChallengeModalProps> = ({ challe
         </div>
 
         <p className="text-xs font-mono text-slate-400 mb-6">
-          Complete this fun mission right now at the CSCC Welcome Day booth!
+          Complete this fun mission right now at the CDEC Welcome Day booth!
         </p>
 
         <GameButton onClick={onClose} variant="amber" size="lg" icon={<CheckCircle2 className="w-5 h-5" />}>
