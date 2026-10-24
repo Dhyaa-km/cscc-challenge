@@ -39,11 +39,11 @@ export const Home: React.FC = () => {
           <div ref={heroTextRef} className="max-w-3xl mx-auto mt-2">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/90 border border-slate-700 text-xs font-mono font-medium text-cyan-400 mb-6 shadow-inner">
               <Flame className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
-              <span>CSCC Welcome Day Interactive Arcade</span>
+              <span>CDEC Welcome Day Interactive Arcade</span>
             </div>
 
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black font-display tracking-tight text-white mb-4">
-              CSCC <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 bg-clip-text text-transparent">CHALLENGE</span>
+              CDEC <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 bg-clip-text text-transparent">CHALLENGE</span>
             </h1>
 
             <p className="text-lg sm:text-2xl font-mono font-extrabold uppercase tracking-wide text-cyan-400 mb-4">
@@ -51,7 +51,7 @@ export const Home: React.FC = () => {
             </p>
 
             <p className="text-sm sm:text-base text-slate-400 font-sans max-w-2xl mx-auto leading-relaxed">
-              Welcome to the CSCC booth! Select any of our 3 interactive arcade challenges below. Test your reflexes, reconstruct visual puzzles, or challenge your memory grid!
+              Welcome to the CDEC booth! Select any of our 3 interactive arcade challenges below. Test your reflexes, reconstruct visual puzzles, or challenge your memory grid!
             </p>
           </div>
         </section>
@@ -77,7 +77,7 @@ export const Home: React.FC = () => {
                   Physical Event Quests & Real-World Challenges
                 </h4>
                 <p className="text-xs text-slate-400 font-sans mt-1">
-                  Complete challenges to unlock real-world event missions at the CSCC booth!
+                  Complete challenges to unlock real-world event missions at the CDEC booth!
                 </p>
               </div>
             </div>
