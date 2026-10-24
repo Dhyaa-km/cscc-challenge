@@ -43,7 +43,7 @@ export const PuzzleGameModule: React.FC = () => {
         </h2>
 
         <p className="text-sm text-slate-300 font-sans max-w-md mx-auto mb-8 leading-relaxed">
-          Tap two tiles to swap their positions. Reconstruct the CSCC visual puzzle to unlock your physical welcome day event challenge!
+          Tap two tiles to swap their positions. Reconstruct the CDEC visual puzzle to unlock your physical welcome day event challenge!
         </p>
 
         <GameButton
