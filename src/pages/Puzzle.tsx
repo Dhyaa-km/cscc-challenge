@@ -6,7 +6,7 @@ export const PuzzlePage: React.FC = () => {
   return (
     <GameLayout
       title="IMAGE PUZZLE"
-      subtitle="Reconstruct the scrambled image by tapping tile pairs. Solved puzzles unlock real-world CSCC event quests!"
+      subtitle="Reconstruct the scrambled image by tapping tile pairs. Solved puzzles unlock real-world CDEC event quests!"
       emoji="🧩"
       badge="Puzzle & Quest Challenge"
       accentColor="amber"
